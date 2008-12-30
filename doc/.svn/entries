@@ -1,0 +1,94 @@
+8
+
+dir
+4
+svn+ssh://senorprogrammer@rubyforge.org/var/svn/machspeedcalc/doc
+svn+ssh://senorprogrammer@rubyforge.org/var/svn/machspeedcalc
+
+
+
+2007-12-31T21:43:12.714825Z
+3
+senorprogrammer
+
+
+svn:special svn:externals svn:needs-lock
+
+fr_file_index.html
+file
+
+
+
+
+2008-01-15T19:33:47.000000Z
+f0ec737f1c2a0375dfe8776d45953f9b
+2007-12-31T21:43:12.714825Z
+3
+senorprogrammer
+
+fr_method_index.html
+file
+
+
+
+
+2008-01-15T19:33:47.000000Z
+83977101e1c4128de7e72b75fbc0d502
+2007-12-31T21:43:12.714825Z
+3
+senorprogrammer
+
+files
+dir
+
+created.rid
+file
+8
+
+
+
+2008-01-15T19:33:47.000000Z
+593df86e695f76354043e3e64603e762
+2008-01-15T19:34:13.489545Z
+8
+senorprogrammer
+
+fr_class_index.html
+file
+
+
+
+
+2008-01-15T19:33:47.000000Z
+a3c0bf9b0b1b5969b0addeee2c80e953
+2007-12-31T21:43:12.714825Z
+3
+senorprogrammer
+
+index.html
+file
+
+
+
+
+2008-01-15T19:33:47.000000Z
+870fb4cf829686ddaa1a8df2904f86ae
+2007-12-31T21:43:12.714825Z
+3
+senorprogrammer
+
+rdoc-style.css
+file
+
+
+
+
+2008-01-15T19:33:47.000000Z
+07cc32aa3b88f9911fe43613a29650a3
+2007-12-31T21:43:12.714825Z
+3
+senorprogrammer
+
+classes
+dir
+

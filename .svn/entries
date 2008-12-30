@@ -1,0 +1,43 @@
+8
+
+dir
+4
+svn+ssh://senorprogrammer@rubyforge.org/var/svn/machspeedcalc
+svn+ssh://senorprogrammer@rubyforge.org/var/svn/machspeedcalc
+
+
+
+2008-01-01T01:43:54.409730Z
+4
+senorprogrammer
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+35e0f3f6-0786-4255-bd2f-7357749ff0d2
+
+doc
+dir
+
+mach_speed_calc.rb
+file
+7
+
+
+
+2008-01-15T19:29:00.000000Z
+fa4b43f21a66041e6efe2b275d515c4b
+2008-01-15T19:32:52.096622Z
+7
+senorprogrammer
+

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Class: MachSpeedCalculator</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href=".././rdoc-style.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  // <![CDATA[
+
+  function popupCode( url ) {
+    window.open(url, "Code", "resizable=yes,scrollbars=yes,toolbar=no,status=no,height=150,width=400")
+  }
+
+  function toggleCode( id ) {
+    if ( document.getElementById )
+      elem = document.getElementById( id );
+    else if ( document.all )
+      elem = eval( "document.all." + id );
+    else
+      return false;
+
+    elemStyle = elem.style;
+    
+    if ( elemStyle.display != "block" ) {
+      elemStyle.display = "block"
+    } else {
+      elemStyle.display = "none"
+    }
+
+    return true;
+  }
+  
+  // Make codeblocks hidden by default
+  document.writeln( "<style type=\"text/css\">div.method-source-code { display: none }</style>" )
+  
+  // ]]>
+  </script>
+
+</head>
+<body>
+
+
+
+    <div id="classHeader">
+        <table class="header-table">
+        <tr class="top-aligned-row">
+          <td><strong>Class</strong></td>
+          <td class="class-name-in-header">MachSpeedCalculator</td>
+        </tr>
+        <tr class="top-aligned-row">
+            <td><strong>In:</strong></td>
+            <td>
+                <a href="../files/mach_speed_calc_rb.html">
+                mach_speed_calc.rb
+                </a>
+        <br />
+            </td>
+        </tr>
+
+        <tr class="top-aligned-row">
+            <td><strong>Parent:</strong></td>
+            <td>
+                Object
+            </td>
+        </tr>
+        </table>
+    </div>
+  <!-- banner header -->
+
+  <div id="bodyContent">
+
+
+
+  <div id="contextContent">
+
+    <div id="description">
+      <p>
+Convert between Km/h or Miles/h and Mach speeds
+</p>
+<p>
+By Chris Cummer
+</p>
+<pre>
+  chris@postal-code.com
+
+  Mach Number:
+
+    Ratio of true airspeed to speed of sound in surrounding fluid (which varies as square
+    root of absolute temperature). Mach 1 equals the speed of sound, which is 340.294 meters
+    per second or 761.59 mph at sea level.
+
+    The Mach number depends on the speed of sound in the gas and the speed of sound depends
+    on the type of gas and the temperature of the gas.
+
+    For the purposes of this class the gas is assumed to be common air.
+
+  Usage:
+
+    m = MachSpeedCalulator.new
+    ms = m.kmh_to_mach( 120, 25 )
+    =&gt; 0.0962977998319029
+
+    km = m.mach_to_kmh( 0.0962977998319029, 25 )
+    =&gt; 120.0
+</pre>
+
+    </div>
+
+
+   </div>
+
+    <div id="method-list">
+      <h3 class="section-bar">Methods</h3>
+
+      <div class="name-list">
+      <a href="#M000003">kmh_to_mach</a>&nbsp;&nbsp;
+      <a href="#M000005">mach_to_kmh</a>&nbsp;&nbsp;
+      <a href="#M000006">mach_to_mileh</a>&nbsp;&nbsp;
+      <a href="#M000004">mileh_to_mach</a>&nbsp;&nbsp;
+      <a href="#M000002">new</a>&nbsp;&nbsp;
+      </div>
+    </div>
+
+  </div>
+
+
+    <!-- if includes -->
+
+    <div id="section">
+
+
+
+
+
+      
+
+
+    <!-- if method_list -->
+    <div id="methods">
+      <h3 class="section-bar">Public Class methods</h3>
+
+      <div id="method-M000002" class="method-detail">
+        <a name="M000002"></a>
+
+        <div class="method-heading">
+          <a href="MachSpeedCalculator.src/M000002.html" target="Code" class="method-signature"
+            onclick="popupCode('MachSpeedCalculator.src/M000002.html');return false;">
+          <span class="method-name">new</span><span class="method-args">()</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;
+Initialization
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; #
+</p>
+        </div>
+      </div>
+
+      <h3 class="section-bar">Public Instance methods</h3>
+
+      <div id="method-M000003" class="method-detail">
+        <a name="M000003"></a>
+
+        <div class="method-heading">
+          <a href="MachSpeedCalculator.src/M000003.html" target="Code" class="method-signature"
+            onclick="popupCode('MachSpeedCalculator.src/M000003.html');return false;">
+          <span class="method-name">kmh_to_mach</span><span class="method-args">( kmh, pOutsideAirTempC = 15 )</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Convert from Km/h to Mach
+</p>
+        </div>
+      </div>
+
+      <div id="method-M000005" class="method-detail">
+        <a name="M000005"></a>
+
+        <div class="method-heading">
+          <a href="MachSpeedCalculator.src/M000005.html" target="Code" class="method-signature"
+            onclick="popupCode('MachSpeedCalculator.src/M000005.html');return false;">
+          <span class="method-name">mach_to_kmh</span><span class="method-args">( mach, pOutsideAirTempC = 15 )</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Convert from Mach to Km/h
+</p>
+        </div>
+      </div>
+
+      <div id="method-M000006" class="method-detail">
+        <a name="M000006"></a>
+
+        <div class="method-heading">
+          <a href="MachSpeedCalculator.src/M000006.html" target="Code" class="method-signature"
+            onclick="popupCode('MachSpeedCalculator.src/M000006.html');return false;">
+          <span class="method-name">mach_to_mileh</span><span class="method-args">( mach, pOutsideAirTempF = 59 )</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Convert from Mach to Miles/h
+</p>
+        </div>
+      </div>
+
+      <div id="method-M000004" class="method-detail">
+        <a name="M000004"></a>
+
+        <div class="method-heading">
+          <a href="MachSpeedCalculator.src/M000004.html" target="Code" class="method-signature"
+            onclick="popupCode('MachSpeedCalculator.src/M000004.html');return false;">
+          <span class="method-name">mileh_to_mach</span><span class="method-args">( mileh, pOutsideAirTempF = 59 )</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Convert from Mach to Miles/h
+</p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+<div id="validator-badges">
+  <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+</div>
+
+</body>
+</html>
