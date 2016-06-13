@@ -17,7 +17,7 @@
 #
 # m = MachSpeedCalulator.kmh_to_mach(120, 25)
 # => 0.0962977998319029
-#
+
 # km = MachSpeedCalulator.mach_to_kmh(0.0962977998319029, 25)
 # => 120.0
 
