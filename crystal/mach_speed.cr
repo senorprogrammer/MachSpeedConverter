@@ -22,7 +22,7 @@
 # => 120.0
 #
 
-require "bigdecimal/math"
+require "math"
 
 module MachSpeedCalculator
   extend self
@@ -55,17 +55,18 @@ module MachSpeedCalculator
     km_to_mile(mach_to_kmh(mach , fahr_to_celc(outside_air_temp_f)))
   end
 
-private
+  # -------------------- Private Methods --------------------
 
-  def mile_to_km(miles)
+  private def mile_to_km(miles)
     miles * 1.609344
   end
 
-  def km_to_mile(km)
+  private def km_to_mile(km)
     km * 0.621371192
   end
 
-  def fahr_to_celc(fahr)
+  private def fahr_to_celc(fahr)
     (fahr - 32) * 0.56
   end
 end
+

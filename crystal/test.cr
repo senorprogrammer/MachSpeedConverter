@@ -1,4 +1,4 @@
-require_relative './mach_speed'
+require "./mach_speed"
 
 def green(str)
   "\033[32m#{str}\033[0m"
