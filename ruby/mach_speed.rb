@@ -20,7 +20,6 @@
 #
 # km = MachSpeedCalulator.mach_to_kmh(0.0962977998319029, 25)
 # => 120.0
-#
 
 require "bigdecimal/math"
 
