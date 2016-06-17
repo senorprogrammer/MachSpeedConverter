@@ -52,7 +52,7 @@ module MachSpeedCalculator
 
   # Mach to Miles/h
   def mach_to_mileh(mach, outside_air_temp_f = GROUND_AIR_TEMP_F)
-    km_to_mile(mach_to_kmh(mach , fahr_to_celc(outside_air_temp_f)))
+    km_to_mile(mach_to_kmh(mach, fahr_to_celc(outside_air_temp_f)))
   end
 
   # -------------------- Private Methods --------------------
