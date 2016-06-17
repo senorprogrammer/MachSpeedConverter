@@ -1,12 +1,6 @@
 # MachSpeedCalc
 
-Convert between Km/h or Miles/h and Mach speeds.
-
-## Languages
-
-* Ruby
-* Crystal
-* Swift
+Convert between Km/h or Miles/h and Mach speeds in different programming languages.
 
 ## Mach Number
 
