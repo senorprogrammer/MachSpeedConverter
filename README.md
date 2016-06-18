@@ -11,6 +11,7 @@ per second or 761.59 mph at sea level.
 The Mach number depends on the speed of sound in the gas and the speed of sound depends
 on the type of gas and the temperature of the gas.
 
-For the purposes of this class the gas is assumed to be common air.
+For the purposes of this software the gas is assumed to be common air.
 
 Default air temperature is the global average temperature at ground level.
+
