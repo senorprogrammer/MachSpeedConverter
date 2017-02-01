@@ -15,3 +15,19 @@ For the purposes of this software the gas is assumed to be common air.
 
 Default air temperature is the global average temperature at ground level.
 
+## Crystal
+
+`crystal ./test.cr`
+
+## Haskell
+
+`ghc ./mach_speed.hs`
+`./mach_speed`
+
+## Ruby
+
+`ruby ./test.rb`
+
+## Swift
+
+``
