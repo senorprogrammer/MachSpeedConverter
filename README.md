@@ -30,4 +30,4 @@ Default air temperature is the global average temperature at ground level.
 
 ## Swift
 
-``
+`swift ./mach_speed.swift`
