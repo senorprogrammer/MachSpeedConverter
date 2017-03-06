@@ -25,9 +25,10 @@ Default air temperature is the global average temperature at ground level.
 
 ## Haskell
 
-`ghc ./mach_speed.hs`
-
-`./mach_speed`
+```
+ghc ./mach_speed.hs
+./mach_speed
+```
 
 ## Ruby
 
@@ -35,7 +36,10 @@ Default air temperature is the global average temperature at ground level.
 
 ## Rust
 
-`rustc ./main.rs -o mach_speed`
+```
+rustc ./main.rs -o mach_speed
+./mach_speed
+```
 
 ## Swift
 
