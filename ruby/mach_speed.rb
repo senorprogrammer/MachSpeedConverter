@@ -39,9 +39,9 @@ module MachSpeedCalculator
     (KNOTS_TO_KM * km_per_hour) / (THE_MAGIC_CONSTANT * Math.sqrt(outside_air_temp_c + KELVIN_TO_CELCIUS))
   end
 
-  # Mach to Miles/h
+  # Miles/h to Mach
   def mileh_to_mach(miles_per_hour, outside_air_temp_f = GROUND_AIR_TEMP_F)
-    kmh_to_mach(mile_to_km(miles_per_hour), fahr_to_celc(outside_air_temp_f))
+ -   kmh_to_mach(mile_to_km(miles_per_hour), fahr_to_celc(outside_air_temp_f))
   end
 
   # Mach to Km/h
