@@ -35,7 +35,7 @@ Default air temperature is the global average temperature at ground level.
 
 ## Rust
 
-`rustc ./mach_speed.rs`
+`rustc ./main.rs -o mach_speed`
 
 ## Swift
 
