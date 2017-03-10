@@ -21,7 +21,9 @@ Default air temperature is the global average temperature at ground level.
 
 ## Go
 
-``
+```
+go run main.go
+```
 
 ## Haskell
 
